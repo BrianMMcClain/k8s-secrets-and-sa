@@ -23,3 +23,15 @@ username
 $ kubectl exec secret-as-file -- cat /etc/mysecret/username
 myusername
 ```
+
+pod-secret-as-env.yaml
+---
+
+Stores the secrets as environment variables.
+
+`kubectl apply -f pod-secret-as-env.yaml`
+
+```
+$ kubectl exec secret-as-env -- sh -c "echo \$SECRET_USERNAME"
+myusername
+```
