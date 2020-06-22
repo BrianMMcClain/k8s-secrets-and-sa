@@ -4,7 +4,7 @@ Kubernetes Secrets and Service Accounts
 Secrets
 ---
 
-- `secret.yaml`: Basic secret to use in the example pods. Username and password are encoded as base64
+- `secret-base64.yaml`: Basic secret to use in the example pods, where keys and values are all provided in the YAML. Username and password are encoded as base64
 
 pod-secret-as-file.yaml
 ---
