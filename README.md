@@ -6,6 +6,10 @@ Secrets
 
 - `secret-base64.yaml`: Basic secret to use in the example pods, where keys and values are all provided in the YAML. Username and password are encoded as base64
 
+Containers
+---
+- `kubectl-alpine`: Minimal container that ships with `bash` and `kubectl`, used to demonstrate Service Accounts. Available on Docker Hub at [brianmmcclain/kubectl-alpine](https://hub.docker.com/r/brianmmcclain/kubectl-alpine).
+
 pod-secret-as-file.yaml
 ---
 
